@@ -1,0 +1,59 @@
+.Section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .content {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    flex-direction: column;
+    form {
+      display: flex;
+      align-items: end;
+      justify-content: start;
+      gap: 10px;
+      input {
+        padding: 4px 10px;
+        width: 300px;
+        height: 40px;
+        border-radius: 3px;
+        border: 1px solid white;
+        color: white;
+        outline: none;
+      }
+      button {
+        width: 150px;
+        height: 40px;
+        border-radius: 4px;
+        border: solid 1px white;
+      }
+    }
+    .blog {
+      max-width: 60%; /* Максимальная ширина сообщения */
+      background-color: #dcf8c6; /* Зеленый фон, как в исходящих сообщениях WhatsApp */
+      color: #000; /* Цвет текста */
+      padding: 10px 15px; /* Внутренние отступы */
+      border-radius: 0 25px 15px 15px; /* Закругленные углы */
+      margin: 10px 0; /* Отступы между сообщениями */
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
+      font-size: 14px; /* Размер шрифта */
+      line-height: 1.4; /* Межстрочный интервал */
+      word-wrap: break-word;
+      h1 {
+        font-style: oblique;
+        color: black;
+        padding: 1px 5px;
+        font-weight: 300;
+      }
+      button {
+        width: 100px;
+        background: none;
+        border: none;
+        color: rgba(227, 66, 66, 0.838);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+          Geneva, Verdana, sans-serif;
+      }
+    }
+  }
+}
